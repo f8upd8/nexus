@@ -1,6 +1,9 @@
+# Example
+ ![funny ai](https://files.catbox.moe/zzrqdu.png) 
+
 # pwd
 An application that is able to run multiple discord bots at the time each with their own character prompt. This can be used for roleplay or just chatting depending on the system prompt. 
-For text generation, Large Language Models are used. Currently, only text-davinci-003 from openai api is supported. But llama/alpaca support is just a matter of time, as long as turbo3-5.
+For text generation, Large Language Models are used. Currently, only text-davinci-003 from OpenAI is supported. But llama/alpaca support is just a matter of time, as long as turbo3-5.
 
 # How Do I Run This O_O
 
