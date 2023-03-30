@@ -30,7 +30,9 @@ class CharBot(discord.Client):
 
     async def on_message(self, message):
         global PERSONA
-        if self.user in message.mentions:
+        if message.author == self.user:
+            return
+        if (self.user in message.mentions) or not message.guild:
             if CONVERSATIONS.get(message.author.id):
                 CONVERSATIONS[message.author.id].add_message('user', fix_mentions(message))
             else:
